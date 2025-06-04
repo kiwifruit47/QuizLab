@@ -1,0 +1,28 @@
+.flex_container {
+    justify-self: center;
+    margin: 2em 2em 6em 2em;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10em;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+#landing_page_question_img {
+    width: 400px;
+    height: auto;
+}
+
+p {
+    width: 40vw;
+    font-size: 1.2em;
+}
