@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    margin: 4em;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+a {
+    margin: 0 2em;
+    text-decoration: none;
+    color: #a36dfe;
+}
+
+hr {
+    width: 90vw;
+    height: 1px;
+    background-color: #a36dfe;
+    border-style: none;
+    margin-top: 5em;
+}
