@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import Footer from '../components/Footer/Footer'
 import { Quiz } from '../components/Quiz/Quiz'
 
 export const Literature = () => {

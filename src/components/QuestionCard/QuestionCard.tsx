@@ -12,7 +12,6 @@ type QuestionProps = {
   
   export const QuestionCard: React.FC<QuestionProps> = ({
     question,
-    type,
     correct_answer,
     incorrect_answers,
     onNext,

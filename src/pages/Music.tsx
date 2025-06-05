@@ -1,5 +1,4 @@
 import { Quiz } from '../components/Quiz/Quiz'
-import Footer from '../components/Footer/Footer'
 import { Link } from 'react-router-dom'
 
 export const Music = () => {
