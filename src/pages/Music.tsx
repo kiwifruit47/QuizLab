@@ -1,7 +1,12 @@
-import React from 'react'
+import { Quiz } from '../components/Quiz/Quiz'
+import Footer from '../components/Footer/Footer'
+import { Link } from 'react-router-dom'
 
 export const Music = () => {
   return (
-    <div>Music</div>
+    <>
+      <Link to='/'><img src="src/assets/QuizLab.png" alt="logo" /></Link>
+      <Quiz apiUrl = {"https://opentdb.com/api.php?amount=5&category=12&difficulty=easy"}></Quiz>
+    </>
   )
 }

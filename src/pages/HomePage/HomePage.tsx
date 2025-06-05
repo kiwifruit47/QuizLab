@@ -52,7 +52,7 @@ function HomePage() {
 
       return (
         <>
-            <img className='logo' src="src/assets/QuizLab.png" alt="logo" />
+            <Link to='/'><img src="src/assets/QuizLab.png" alt="logo" /></Link>
             <LandingPageHero />
             <h2>Choose a category</h2>
             <div className='category_container'>

@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import HomePage from './pages/HomePage/HomePage.tsx'
-import { About } from './pages/About.tsx'
 import { Art } from './pages/Art.tsx'
 import { Geography } from './pages/Geography.tsx'
 import { History } from './pages/History.tsx'
@@ -18,10 +17,6 @@ const router = createBrowserRouter([
     path: '/',
     element: <HomePage/>,
     errorElement: <ErrorRoute/>
-  },
-  {
-    path: '/about',
-    element: <About/>
   },
   {
     path: '/art',
