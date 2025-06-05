@@ -1,6 +1,7 @@
 import './HomePage.css';
 import LandingPageHero from '../../components/LandingPageHero/LandingPageHero';
 import Footer from '../../components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
     type Category = {
@@ -56,10 +57,13 @@ function HomePage() {
             <h2>Choose a category</h2>
             <div className='category_container'>
                 {categories.map((category) => (
-                <div key={category.name} className={category.name.toLowerCase()}>
-                    <img src={category.imageLink} alt={category.alternativeText}/>
-                    <span>{category.name}</span>
-                </div>
+                  <Link to={'/' + category.name.toLowerCase()}>
+                    <div key={category.name} className={category.name.toLowerCase()}>
+                      <img src={category.imageLink} alt={category.alternativeText}/>
+                      <span>{category.name}</span>
+                    </div>
+                  </Link>
+                
                 ))}
             </div>
             <Footer/>

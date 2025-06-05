@@ -5,13 +5,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import HomePage from './pages/HomePage/HomePage.tsx'
 import { About } from './pages/About.tsx'
 import { Art } from './pages/Art.tsx'
-import { FQAs } from './pages/FQAs.tsx'
 import { Geography } from './pages/Geography.tsx'
 import { History } from './pages/History.tsx'
 import { Literature } from './pages/Literature.tsx'
 import { Movies } from './pages/Movies.tsx'
 import { Music } from './pages/Music.tsx'
 import { ErrorRoute } from './pages/ErrorRoute/ErrorRoute.tsx'
+import { FAQs } from './pages/FAQs.tsx'
 
 const router = createBrowserRouter([
   {
@@ -28,8 +28,8 @@ const router = createBrowserRouter([
     element: <Art/>
   },
   {
-    path: '/fqas',
-    element: <FQAs/>
+    path: '/faqs',
+    element: <FAQs/>
   },
   {
     path: '/geography',
