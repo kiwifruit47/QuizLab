@@ -10,7 +10,7 @@ import { Literature } from './pages/Literature.tsx'
 import { Movies } from './pages/Movies.tsx'
 import { Music } from './pages/Music.tsx'
 import { ErrorRoute } from './pages/ErrorRoute/ErrorRoute.tsx'
-import { FAQs } from './pages/FAQs.tsx'
+import { FAQs } from './pages/FAQs/FAQs.tsx'
 
 const router = createBrowserRouter([
   {

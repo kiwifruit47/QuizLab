@@ -37,3 +37,20 @@
 #completed h1 {
     font-size: 5em;
 }
+
+@media screen and (max-width: 600px) {
+    .score {
+        font-size: 1em;
+    }
+    #completed h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+    #restart_btn {
+        width: fit-content;
+        height: 3em;
+    }
+    .quiz_container a {
+        text-align: center;
+    }
+}

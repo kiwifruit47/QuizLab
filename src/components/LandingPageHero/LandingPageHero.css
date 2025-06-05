@@ -26,3 +26,24 @@ p {
     width: 40vw;
     font-size: 1.2em;
 }
+
+@media screen and (max-width: 900px) {
+    .flex_container {
+        justify-self: center;
+        margin: 0;
+        flex-direction: column;
+    }
+    .headings {
+        width: inherit;
+        margin: 0;
+        text-align: center;
+    }
+    .headings p {
+        width: inherit;
+    }
+    #landing_page_question_img {
+        width: 200px;
+        height: auto;
+        align-self: center;
+    }
+}

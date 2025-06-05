@@ -59,3 +59,9 @@
 #next_btn:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    #next_btn {
+        width: 20vw;
+    }
+}
