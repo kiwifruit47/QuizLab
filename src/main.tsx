@@ -14,36 +14,36 @@ import { FAQs } from './pages/FAQs/FAQs.tsx'
 
 const router = createBrowserRouter([
   {
-    path: '/quizlab/',
+    path: '/quiz-lab/',
     element: <HomePage/>,
     errorElement: <ErrorRoute/>
   },
   {
-    path: '/quizlab/art',
+    path: '/quiz-lab/art',
     element: <Art/>
   },
   {
-    path: '/quizlab/faqs',
+    path: '/quiz-lab/faqs',
     element: <FAQs/>
   },
   {
-    path: '/quizlab/geography',
+    path: '/quiz-lab/geography',
     element: <Geography/>
   },
   {
-    path: '/quizlab/history',
+    path: '/quiz-lab/history',
     element: <History/>
   },
   {
-    path: '/quizlab/literature',
+    path: '/quiz-lab/literature',
     element: <Literature/>
   },
   {
-    path: '/quizlab/movies',
+    path: '/quiz-lab/movies',
     element: <Movies/>
   },
   {
-    path: '/quizlab/music',
+    path: '/quiz-lab/music',
     element: <Music/>
   },
 ]);

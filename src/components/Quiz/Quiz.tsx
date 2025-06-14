@@ -71,7 +71,7 @@ export const Quiz = ({ apiUrl }: Props) => {
             <p className='score'>Your score: {score} / {questions.length}</p>
             <button id='restart_btn' onClick={restartQuiz} style={{marginBottom: '1em'}}>↻ Restart Quiz</button>
             <span style={{color: '#EDB7ED', marginBottom: '1em'}}>or</span>
-            <Link to='/' style={{color: '#EDB7ED', fontWeight: 'bold'}}>Click here to go to home page</Link>
+            <Link to='/quiz-lab/' style={{color: '#EDB7ED', fontWeight: 'bold'}}>Click here to go to home page</Link>
           </div>
         );
       }

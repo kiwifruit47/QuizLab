@@ -12,7 +12,7 @@ export const FAQs = () => {
   }
   return (
     <>
-    <Link to='/quizlab/'><img src="src/assets/QuizLab.png" alt="logo" /></Link>
+    <Link to='/quiz-lab/'><img src="src/assets/QuizLab.png" alt="logo" /></Link>
     <div className='faq_container'>
       <h1>FAQs</h1>
       <div className='faq_item'>
