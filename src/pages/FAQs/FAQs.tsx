@@ -1,7 +1,7 @@
 import './FAQs.css';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/QuizLab.png';
+import Logo from '../../assets/QuizLab.png';
 
 
 export const FAQs = () => {
