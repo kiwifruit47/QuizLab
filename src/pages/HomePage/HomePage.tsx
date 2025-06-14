@@ -2,7 +2,7 @@ import './HomePage.css';
 import LandingPageHero from '../../components/LandingPageHero/LandingPageHero';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router-dom';
-import Logo from 'src/assets/QuizLab.png';
+import Logo from '../../assets/QuizLab.png';
 
 function HomePage() {
     type Category = {
