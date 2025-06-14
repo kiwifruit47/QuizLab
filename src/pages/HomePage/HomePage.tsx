@@ -59,12 +59,12 @@ function HomePage() {
 
       return (
         <>
-            <Link to='/quizlab/'><img src={Logo} alt="logo" /></Link>
+            <Link to='/quiz-lab/'><img src={Logo} alt="logo" /></Link>
             <LandingPageHero />
             <h2>Choose a category</h2>
             <div className='category_container'>
                 {categories.map((category) => (
-                  <Link to={'/quizlab/' + category.name.toLowerCase()}>
+                  <Link to={'/quiz-lab/' + category.name.toLowerCase()}>
                     <div key={category.name} className={category.name.toLowerCase()}>
                       <img src={category.image} alt={category.alternativeText}/>
                       <span>{category.name}</span>
