@@ -3,47 +3,53 @@ import LandingPageHero from '../../components/LandingPageHero/LandingPageHero';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/QuizLab.png';
+import ClapperBoard from '../../assets/clapperboard.png';
+import Globe from '../../assets/globe.png';
+import Book from '../../assets/open-book.png';
+import Painting from '../../assets/painting.png';
+import Parthenon from '../../assets/parthenon.png';
+import Vynil from '../../assets/vinyl.png';
 
 function HomePage() {
     type Category = {
         name: string,
-        imageLink: string,
+        image: string,
         alternativeText: string
       }
     
       const music: Category = {
         name: "Music",
-        imageLink: "src/assets/vinyl.png",
+        image: Vynil,
         alternativeText: "vinyl icon"
       }
     
       const art: Category = {
         name: "Art",
-        imageLink: "src/assets/painting.png",
+        image: Painting,
         alternativeText: "painting icon"
       }
     
       const literature: Category = {
         name: "Literature",
-        imageLink: "src/assets/open-book.png",
+        image: Book,
         alternativeText: "book icon"
       }
     
       const history: Category = {
         name: "History",
-        imageLink: "src/assets/parthenon.png",
+        image: Parthenon,
         alternativeText: "parthenon icon"
       }
     
       const geography: Category = {
         name: "Geography",
-        imageLink: "src/assets/globe.png",
+        image: Globe,
         alternativeText: "globe icon"
       }
     
       const movies: Category = {
         name: "Movies",
-        imageLink: "src/assets/clapperboard.png",
+        image: ClapperBoard,
         alternativeText: "clapperboard icon"
       }
     
@@ -60,7 +66,7 @@ function HomePage() {
                 {categories.map((category) => (
                   <Link to={'/quizlab/' + category.name.toLowerCase()}>
                     <div key={category.name} className={category.name.toLowerCase()}>
-                      <img src={category.imageLink} alt={category.alternativeText}/>
+                      <img src={category.image} alt={category.alternativeText}/>
                       <span>{category.name}</span>
                     </div>
                   </Link>
