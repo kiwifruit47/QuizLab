@@ -8,8 +8,8 @@ function Footer() {
             <div className='footer_container'>
                 <span>© 2025</span>
                 <div>
-                    <Link to='/'>Home</Link>
-                    <Link to='/faqs'>FAQs</Link>
+                    <Link to='/quizlab/'>Home</Link>
+                    <Link to='/quizlab/faqs'>FAQs</Link>
                 </div>
             </div>
         </>
