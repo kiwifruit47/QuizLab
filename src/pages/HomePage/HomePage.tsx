@@ -2,6 +2,7 @@ import './HomePage.css';
 import LandingPageHero from '../../components/LandingPageHero/LandingPageHero';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router-dom';
+import Logo from '../../assets/QuizLab.png'
 
 function HomePage() {
     type Category = {
@@ -52,7 +53,7 @@ function HomePage() {
 
       return (
         <>
-            <Link to='/'><img src="src/assets/QuizLab.png" alt="logo" /></Link>
+            <Link to='/'><img src={Logo} alt="logo" /></Link>
             <LandingPageHero />
             <h2>Choose a category</h2>
             <div className='category_container'>
