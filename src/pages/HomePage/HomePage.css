@@ -24,6 +24,8 @@ img {
 }
 
 .category_container {
+  justify-self: center;
+  align-self: center;
   margin: 3em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
